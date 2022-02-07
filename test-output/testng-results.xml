@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-30T17:15:54 IST" name="Suite" finished-at="2022-01-30T17:16:06 IST" duration-ms="11646">
+    <groups>
+    </groups>
+    <test started-at="2022-01-30T17:15:54 IST" name="Test" finished-at="2022-01-30T17:16:06 IST" duration-ms="11646">
+      <class name="MavenProject.BussinessScripts.GmailTest">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:15:52 IST" name="OpenBrowser" finished-at="2022-01-30T17:15:54 IST" duration-ms="2659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="initReports()[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:15:54 IST" name="initReports" finished-at="2022-01-30T17:15:54 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method is-config="true" signature="BeforeTestExecution(java.lang.reflect.Method)[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:15:54 IST" name="BeforeTestExecution" finished-at="2022-01-30T17:15:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MavenProject.BussinessScripts.GmailTest.gmailtest() throws java.lang.InterruptedException,java.io.IOException,MavenProject.CustomizedExceptions.CustomException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestExecution -->
+        <test-method signature="gmailtest()[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:15:54 IST" name="gmailtest" finished-at="2022-01-30T17:16:02 IST" duration-ms="7682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailtest -->
+        <test-method is-config="true" signature="AfterTestExecution(org.testng.ITestResult)[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:16:02 IST" name="AfterTestExecution" finished-at="2022-01-30T17:16:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailtest status=SUCCESS method=GmailTest.gmailtest()[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestExecution -->
+        <test-method is-config="true" signature="getReports()[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:16:06 IST" name="getReports" finished-at="2022-01-30T17:16:06 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReports -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:MavenProject.BussinessScripts.GmailTest@6e9175d8]" started-at="2022-01-30T17:16:06 IST" name="CloseBrowser" finished-at="2022-01-30T17:16:07 IST" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- MavenProject.BussinessScripts.GmailTest -->
+      <class name="MavenProject.BussinessScripts.FbTest">
+        <test-method is-config="true" signature="BeforeTestExecution(java.lang.reflect.Method)[pri:0, instance:MavenProject.BussinessScripts.FbTest@7674f035]" started-at="2022-01-30T17:16:02 IST" name="BeforeTestExecution" finished-at="2022-01-30T17:16:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MavenProject.BussinessScripts.FbTest.fbTest() throws java.lang.InterruptedException,java.io.IOException,MavenProject.CustomizedExceptions.CustomException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestExecution -->
+        <test-method signature="fbTest()[pri:0, instance:MavenProject.BussinessScripts.FbTest@7674f035]" started-at="2022-01-30T17:16:02 IST" name="fbTest" finished-at="2022-01-30T17:16:06 IST" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbTest -->
+        <test-method is-config="true" signature="AfterTestExecution(org.testng.ITestResult)[pri:0, instance:MavenProject.BussinessScripts.FbTest@7674f035]" started-at="2022-01-30T17:16:06 IST" name="AfterTestExecution" finished-at="2022-01-30T17:16:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbTest status=SUCCESS method=FbTest.fbTest()[pri:0, instance:MavenProject.BussinessScripts.FbTest@7674f035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestExecution -->
+      </class> <!-- MavenProject.BussinessScripts.FbTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
